@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: f1;
+    src: url(Handmade.otf);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
+
+
+*{
+
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+
+
+}
+
+header {
+
+margin-top: 0;
+    background-color: rgb(192, 130, 97);
+background-size: cover;
+    padding: 10px;
+}
+
+h1{
+
+text-align: center;
+color: white;
+text-shadow: 2px 2px 1px black;
+}
+
+img:nth-child(1){
+position: absolute;
+box-shadow: 20px 17px 10px rgb(77, 77, 77);
+    margin-left:23%;
+width: 900px;
+height: auto;
+}
+
+.imagens{
+overflow: hidden;
+    width: 197.5vh;
+height:500px;
+background-color: black;
+margin-top:50px ;
+padding: 50px;
+}
+
+.m2{
+    font-family: f2;
+margin-top: 200PX;
+font-size: x-large;
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.m2 h2{
+font-family: f1;
+    margin-bottom:100px ;
+background-color: rgb(185, 140, 85);
+border-radius: 10px;
+padding: 10px;
+max-width: 400px;
+margin-left: 550px;
+}
+.m3{
+    margin-top: 200px;
+   
+font-size: x-large;
+font-family: f2;
+}
+.m3 p{
+
+
+margin-bottom: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.m3 h2{
+
+margin-left: 650px;
+margin-bottom: 30px;
+background-color: rgb(185, 140, 85);
+margin-right: 700px ;
+padding: 10px;
+border-radius: 10px;
+font-family: f1;
+}
+footer{
+
+background-color: rgb(187, 121, 0);
+padding: 10px;
+font-size: x-large;
+margin-top: 200px;
+}
+
+span h2{
+margin-top: 150px;
+margin-left: 600px;
+margin-bottom: 100px;
+background-color: rgb(255, 145, 0);
+padding: 10px;
+margin-right: 600px;
+border-radius: 5px;
+font-size: xx-large;
+font-family: f1;
+}
+
+.m4 h2{
+
+    margin-top: 150px;
+margin-left: 525px;
+margin-bottom: 100px;
+background-color: rgb(185, 140, 85);
+padding: 10px;
+margin-right: 525px;
+border-radius: 5px;
+font-size: xx-large;
+font-family: f1;
+border-radius: 10px;
+}
+
+.m4 p{
+font-size: x-large;
+font-family: f2;
+margin-right: 100px;
+margin-left: 100px;
+margin-bottom: 400px
+}
+
+.m3 img{
+
+margin-left: 600px;
+margin-top: 100px;
+margin-bottom: 100px;
+box-shadow: 7px 7px 1px black;
+}
